@@ -11,4 +11,8 @@ function App() {
 
 function TipCalculator() {}
 
+function BillInput() {}
+
+function SelectPercentage() {}
+
 export default App;
