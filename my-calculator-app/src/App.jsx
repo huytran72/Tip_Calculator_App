@@ -9,4 +9,6 @@ function App() {
   );
 }
 
+function TipCalculator() {}
+
 export default App;
