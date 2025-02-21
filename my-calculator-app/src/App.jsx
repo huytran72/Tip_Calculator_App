@@ -6,6 +6,7 @@ function App() {
     <div>
       <TipCalculator />
     </div>
+  );
 }
 
 export default App;
