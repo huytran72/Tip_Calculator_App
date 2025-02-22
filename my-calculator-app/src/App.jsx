@@ -13,7 +13,7 @@ function TipCalculator() {
   return (
     <div>
       <BillInput />
-      <SelectPercentage>How did you like the services? </SelectPercentage>
+      <SelectPercentage> How did you like the services? </SelectPercentage>
       <SelectPercentage>
         How did your friend like the services?
       </SelectPercentage>
