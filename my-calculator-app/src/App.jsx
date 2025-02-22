@@ -15,4 +15,6 @@ function BillInput() {}
 
 function SelectPercentage() {}
 
+function Output() {}
+
 export default App;
