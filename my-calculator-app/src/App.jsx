@@ -10,7 +10,7 @@ function App() {
 }
 
 function TipCalculator() {
-  return ();
+  return <div></div>;
 }
 
 function BillInput() {}
