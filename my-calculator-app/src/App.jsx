@@ -31,7 +31,14 @@ function BillInput() {
 }
 
 function SelectPercentage() {
-  return ()
+  return 
+  <div>
+    <select>
+      
+    </select>
+  </div>
+
+  )
 }
 
 function Output() {}
