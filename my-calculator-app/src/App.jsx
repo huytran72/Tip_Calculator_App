@@ -35,6 +35,7 @@ function SelectPercentage() {
   <div>
     <select>
       <option value="0">Dissatisfied (0%)</option>
+      <option value="5">Dissatisfied (5%)</option>
     </select>
   </div>
 
