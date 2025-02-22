@@ -30,7 +30,7 @@ function BillInput() {
   );
 }
 
-function SelectPercentage() {
+function SelectPercentage({ children }) {
   return 
   <div>
     <select>
