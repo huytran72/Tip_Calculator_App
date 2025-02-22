@@ -11,6 +11,7 @@ function App() {
 
 function TipCalculator() {
   const [bill, setBill] = useState(0);
+  const [percentage1, setPercentage1] = useState(0);
 
   return (
     <div>
@@ -54,7 +55,7 @@ function SelectPercentage({ children }) {
 }
 
 function Output({ bill }) {
-  return <h3>You pay X ($A + $B tip)</h3>;
+  return <h3>You pay X (${bill} + $B tip)</h3>;
 }
 
 function Reset() {
