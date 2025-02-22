@@ -25,7 +25,7 @@ function TipCalculator() {
   );
 }
 
-function BillInput() {
+function BillInput({ bill, onsetBill }) {
   return (
     <div>
       <label> How much was the bill?</label>
