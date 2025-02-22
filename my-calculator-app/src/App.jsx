@@ -23,7 +23,9 @@ function TipCalculator() {
 
 function BillInput() {
   return;
-  <div></div>;
+  <div>
+    <label>How much was the bill?</label>
+  </div>;
 }
 
 function SelectPercentage() {}
