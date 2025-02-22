@@ -9,7 +9,9 @@ function App() {
   );
 }
 
-function TipCalculator() {}
+function TipCalculator() {
+  return ();
+}
 
 function BillInput() {}
 
