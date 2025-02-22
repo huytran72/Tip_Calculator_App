@@ -21,7 +21,10 @@ function TipCalculator() {
   );
 }
 
-function BillInput() {}
+function BillInput() {
+  return;
+  <div></div>;
+}
 
 function SelectPercentage() {}
 
