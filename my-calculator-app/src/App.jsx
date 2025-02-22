@@ -15,6 +15,7 @@ function TipCalculator() {
       <BillInput />
       <SelectPercentage />
       <SelectPercentage />
+      <Output />
     </div>
   );
 }
