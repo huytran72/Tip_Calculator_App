@@ -17,4 +17,6 @@ function SelectPercentage() {}
 
 function Output() {}
 
+function Reset() {}
+
 export default App;
