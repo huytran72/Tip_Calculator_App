@@ -10,6 +10,8 @@ function App() {
 }
 
 function TipCalculator() {
+  const [bill, setBill] = useState(0);
+
   return (
     <div>
       <BillInput />
