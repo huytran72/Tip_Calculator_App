@@ -30,7 +30,9 @@ function BillInput() {
   );
 }
 
-function SelectPercentage() {}
+function SelectPercentage() {
+  return ()
+}
 
 function Output() {}
 
