@@ -14,6 +14,8 @@ function TipCalculator() {
   const [percentage1, setPercentage1] = useState(0);
   const [percentage2, setPercentage2] = useState(0);
 
+  const tip = (bill * (percentage1 + percentage2)) / 100;
+
   return (
     <div>
       <BillInput bill={bill} onsetBill={setBill} />
