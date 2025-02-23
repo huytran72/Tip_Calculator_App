@@ -26,7 +26,7 @@ function TipCalculator() {
       <SelectPercentage percentage2={percentage2} onSelect={setPercentage2}>
         How did your friend like the services?
       </SelectPercentage>
-      <Output bill={bill} />
+      <Output bill={bill} tip={tip} />
       <Reset />
     </div>
   );
@@ -63,7 +63,7 @@ function SelectPercentage({ children, percentage, onSelect }) {
   );
 }
 
-function Output({ bill }) {
+function Output({ bill, tip }) {
   return <h3>You pay X (${bill} + $B tip)</h3>;
 }
 
