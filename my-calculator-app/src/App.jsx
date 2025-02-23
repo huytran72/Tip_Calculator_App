@@ -64,7 +64,11 @@ function SelectPercentage({ children, percentage, onSelect }) {
 }
 
 function Output({ bill, tip }) {
-  return <h3>You pay X (${bill} + $B tip)</h3>;
+  return (
+    <h3>
+      You pay {bill + tip} (${bill} + ${tip} tip)
+    </h3>
+  );
 }
 
 function Reset() {
