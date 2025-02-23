@@ -21,7 +21,7 @@ function TipCalculator() {
         {" "}
         How did you like the services?{" "}
       </SelectPercentage>
-      <SelectPercentage percentage2={percentage2}>
+      <SelectPercentage percentage2={percentage2} onSelect={setPercentage2}>
         How did your friend like the services?
       </SelectPercentage>
       <Output bill={bill} />
