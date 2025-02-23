@@ -17,7 +17,7 @@ function TipCalculator() {
   return (
     <div>
       <BillInput bill={bill} onsetBill={setBill} />
-      <SelectPercentage percentage1={percentage1}>
+      <SelectPercentage percentage1={percentage1} onSelect={setPercentage1}>
         {" "}
         How did you like the services?{" "}
       </SelectPercentage>
