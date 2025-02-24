@@ -33,7 +33,7 @@ function TipCalculator() {
         How did your friend like the services?
       </SelectPercentage>
       <Output bill={bill} tip={tip} />
-      <Reset />
+      <Reset onreset={handleReset} />
     </div>
   );
 }
