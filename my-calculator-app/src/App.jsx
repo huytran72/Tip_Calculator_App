@@ -78,7 +78,7 @@ function Output({ bill, tip }) {
 }
 
 function Reset({ onReset }) {
-  return <button>Reset</button>;
+  return <button onClick={onReset}>Reset</button>;
 }
 
 export default App;
